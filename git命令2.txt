@@ -1,0 +1,12 @@
+1.初次提交
+git init
+git add '你要push的项目路径' #可以多次添加不同的文件 如上传全部就是 git add .
+git commit -m "first commit" #提交并附加附言
+git branch -M main  #main是分支名
+git remote add origin https://github.com/liufudong/gitTest.git  #仓库在github上的路径，可在仓库界面获得
+git push -u origin main #正式推送到远程仓库 main是分支名
+git pull origin main --allow-unrelated-histories#正式推送到远程仓库 main是分支名 这个好一点可以合并分支
+2.分支合并
+Android studio Merge into Current..命令进行合并
+3.撤销提交
+(2条消息) git push 成功后如何撤销回退_小妖666个人笔记-CSDN博客_git push后如何撤回
